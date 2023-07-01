@@ -22,10 +22,10 @@ public class SaveEventDTO {
 	@NotEmpty
 	private String placeCode;
 
-	@NotNull
+	
 	private Date eventDate;
 	
-	@NotNull
+	
 	private LocalTime eventHour;
 
 	@NotEmpty
