@@ -11,6 +11,6 @@ public class TransferDTO {
 	@NotEmpty
 	private String emailReciver;
 	
-	
+	@NotNull
 	private UUID codeTicket;	
 }
